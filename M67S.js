@@ -13,7 +13,7 @@ client.on('ready', () => {
   console.log(' M67S Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Type mhelp",{type: 'WATCHING'})
+    client.user.setGame(` Listen And Enjoy . `, "http://twitch.tv/Streammingg")
 	
 });
 	
