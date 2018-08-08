@@ -13,7 +13,7 @@ client.on('ready', () => {
   console.log(' M67S Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Type ehelp",{type: 'WATCHING'})
+    client.user.setActivity(" Type mhelp",{type: 'WATCHING'})
 	
 });
 	
