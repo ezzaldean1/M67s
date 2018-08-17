@@ -1,7 +1,5 @@
-
 const botSettings = require("./config.json");
 const Discord = require("discord.js");
-const client = new Discord.Client();
 const axios = require("axios");
 const yt = require("ytdl-core");
 const YouTube = require("simple-youtube-api");
@@ -16,12 +14,6 @@ const bot = new Discord.Client({
 	disableEveryone: true
 });
 
-bot.on('ready', () => {
-  console.log('---------------');
-  console.log(' M67S Bot Is Online')
-  console.log('---------------')
-  client.user.setStatus("Online")
-    client.user.setGame(` Marine Events `, "http://twitch.tv/Streammingg")
 let commandsList = fs.readFileSync('commands.md', 'utf8');
 
 /* MUSIC VARIABLES */
